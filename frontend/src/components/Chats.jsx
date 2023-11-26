@@ -22,7 +22,7 @@ const Chats = ({conversation, currentUser}) => {
   return (
     <div className='chats'>
       <div className="userChat">
-        <img src={Photo} alt="" />
+        <img src={Photo} />
         <div className="userChatInfo">
           <span>{user?.username}</span>
           <p>Hello</p>
